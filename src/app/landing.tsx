@@ -10,11 +10,7 @@ import ContactSection from './Contact';
 import cln from '../app/Assets/clean.jpg';
 
 const Landing: NextPage = () => {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [phone, setPhone] = useState('');
-    const [message, setMessage] = useState('');
-    const [isSubmitted, setIsSubmitted] = useState(false);
+
     const [isScrolled, setIsScrolled] = useState(false);
 
     // Handle scroll effects
