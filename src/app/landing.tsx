@@ -31,19 +31,6 @@ const Landing: NextPage = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const handleSubmit = (e: React.FormEvent) => {
-        e.preventDefault();
-        // Here you would typically send the form data to your backend or a service
-        console.log({ name, email, phone, message });
-        setIsSubmitted(true);
-        // Reset form
-        setName('');
-        setEmail('');
-        setPhone('');
-        setMessage('');
-        // Show success message temporarily
-        setTimeout(() => setIsSubmitted(false), 3000);
-    };
 
     return (
         <div className="min-h-screen flex flex-col bg-gray-50">
@@ -240,7 +227,7 @@ const Landing: NextPage = () => {
                                 Testimonials
                             </div>
                             <h2 className="text-3xl md:text-4xl font-bold mb-6">What Our Clients Say</h2>
-                            <p className="text-gray-600 text-lg">Don't just take our word for it - hear from our satisfied customers.</p>
+                            <p className="text-gray-600 text-lg">Don &apos t just take our word for it - hear from our satisfied customers.</p>
                         </div>
                         
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -252,7 +239,7 @@ const Landing: NextPage = () => {
                                     <FaStar />
                                     <FaStar />
                                 </div>
-                                <p className="text-gray-700 mb-6 italic">"SparkleClean transformed my home! Their attention to detail is remarkable and their team is always friendly and professional. I've been a regular client for over three years now."</p>
+                                <p className="text-gray-700 mb-6 italic">"SparkleClean transformed my home! Their attention to detail is remarkable and their team is always friendly and professional. I &apos ve been a regular client for over three years now."</p>
                                 <div className="flex items-center">
                                     <div className="h-12 w-12 rounded-full bg-blue-200 flex items-center justify-center text-blue-600 font-bold text-xl mr-4">
                                         JD
@@ -271,7 +258,7 @@ const Landing: NextPage = () => {
                                     <FaStar />
                                     <FaStar />
                                 </div>
-                                <p className="text-gray-700 mb-6 italic">"We've hired SparkleClean for our office space and the results are consistently excellent. Our workplace is always spotless and our employees appreciate the clean environment."</p>
+                                <p className="text-gray-700 mb-6 italic">"We &apos ve hired SparkleClean for our office space and the results are consistently excellent. Our workplace is always spotless and our employees appreciate the clean environment."</p>
                                 <div className="flex items-center">
                                     <div className="h-12 w-12 rounded-full bg-blue-200 flex items-center justify-center text-blue-600 font-bold text-xl mr-4">
                                         MS
@@ -290,7 +277,7 @@ const Landing: NextPage = () => {
                                     <FaStar />
                                     <FaStar />
                                 </div>
-                                <p className="text-gray-700 mb-6 italic">"As a property manager, I rely on SparkleClean for move-in/move-out cleanings. They're reliable, thorough, and make my properties look brand new. Highly recommended!"</p>
+                                <p className="text-gray-700 mb-6 italic">"As a property manager, I rely on SparkleClean for move-in/move-out cleanings. They &apos re reliable, thorough, and make my properties look brand new. Highly recommended!"</p>
                                 <div className="flex items-center">
                                     <div className="h-12 w-12 rounded-full bg-blue-200 flex items-center justify-center text-blue-600 font-bold text-xl mr-4">
                                         RJ

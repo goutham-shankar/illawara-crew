@@ -12,7 +12,7 @@ export default function ContactSection() {
         </h2>
         <p className="mt-4 text-gray-600 dark:text-gray-300">
           We stay in close communication to ensure every detail meets your satisfaction. 
-          Whether you need a custom plan, have questions, or special requests, we're here to help.
+          Whether you need a custom plan, have questions, or special requests, we &apos re here to help.
         </p>
       </div>
 
