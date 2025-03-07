@@ -49,7 +49,7 @@ const Landing: NextPage = () => {
             <main>
                 {/* Hero Section */}
                 <section id="home" 
-                    className="bg-gradient-to-r from-teal-800 to-blue-900 text-white py-24 md:py-32">
+                    className="bg-teal-800 text-white py-24 md:py-32">
                     <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
                         <div className="md:w-1/2 mb-12 md:mb-0 space-y-6">
                             <div className="inline-block bg-blue-500 text-white text-sm px-3 py-1 rounded-full mb-4">
