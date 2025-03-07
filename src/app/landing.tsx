@@ -239,7 +239,7 @@ const Landing: NextPage = () => {
                                     <FaStar />
                                     <FaStar />
                                 </div>
-                                <p className="text-gray-700 mb-6 italic">"SparkleClean transformed my home! Their attention to detail is remarkable and their team is always friendly and professional. I &apos ve been a regular client for over three years now."</p>
+                                <p className="text-gray-700 mb-6 italic">SparkleClean transformed my home! Their attention to detail is remarkable and their team is always friendly and professional. I &apos ve been a regular client for over three years now.</p>
                                 <div className="flex items-center">
                                     <div className="h-12 w-12 rounded-full bg-blue-200 flex items-center justify-center text-blue-600 font-bold text-xl mr-4">
                                         JD
@@ -258,7 +258,7 @@ const Landing: NextPage = () => {
                                     <FaStar />
                                     <FaStar />
                                 </div>
-                                <p className="text-gray-700 mb-6 italic">"We &apos ve hired SparkleClean for our office space and the results are consistently excellent. Our workplace is always spotless and our employees appreciate the clean environment."</p>
+                                <p className="text-gray-700 mb-6 italic">We &apos ve hired SparkleClean for our office space and the results are consistently excellent. Our workplace is always spotless and our employees appreciate the clean environment.</p>
                                 <div className="flex items-center">
                                     <div className="h-12 w-12 rounded-full bg-blue-200 flex items-center justify-center text-blue-600 font-bold text-xl mr-4">
                                         MS
@@ -277,7 +277,7 @@ const Landing: NextPage = () => {
                                     <FaStar />
                                     <FaStar />
                                 </div>
-                                <p className="text-gray-700 mb-6 italic">"As a property manager, I rely on SparkleClean for move-in/move-out cleanings. They &apos re reliable, thorough, and make my properties look brand new. Highly recommended!"</p>
+                                <p className="text-gray-700 mb-6 italic">As a property manager, I rely on SparkleClean for move-in/move-out cleanings. They &apos re reliable, thorough, and make my properties look brand new. Highly recommended!</p>
                                 <div className="flex items-center">
                                     <div className="h-12 w-12 rounded-full bg-blue-200 flex items-center justify-center text-blue-600 font-bold text-xl mr-4">
                                         RJ
